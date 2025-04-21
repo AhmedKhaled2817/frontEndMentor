@@ -1,0 +1,82 @@
+/* 
+Signup form using HTML, Bootstrap, custom validation, and LocalStorage handling."
+*/
+
+body{
+    font-family: __Heebo_72b39c;
+    background-image: url(../images/bg-intro-desktop.png);
+    background-color: #FF7978;
+}
+#firstName:focus,
+#lastName:focus,
+#emailAddress:focus,
+#passwordInput:focus{
+    outline: 1px solid #DDDBE3;
+    border: 2px solid #DDDBE3;
+    border-radius: 4px;
+}
+#firstName,
+#lastName,
+#emailAddress,
+#passwordInput{
+    outline: none;
+    border: 1px solid #DDDBE3;
+    border-radius: 4px;
+}
+.first-btn{
+    background-color: #5D54A3;
+    color: #ffffff;
+    padding: 10px;
+    cursor: pointer;
+}
+.second-btn{
+    background-color: #38CA89;
+    color: #ffffff;
+    padding: 10px;
+    cursor: pointer;
+}
+.third-btn{
+    color: #DDDBE3;
+
+}
+.four-btn{
+    color: #EFAEAE;
+}
+.muted{
+    color: gray;
+}
+.is-valid {
+    border: 2px solid #38CA89 !important;
+}
+
+.is-invalid {
+    border: 2px solid #FF7978 !important;
+    background-image: url('../images/icon-error.svg');
+    background-repeat: no-repeat;
+    background-position: 95% center;
+}
+small {
+    color: #FF7978;
+    font-size: 0.8rem;
+    margin-top: 5px;
+}
+.custom-toastify {
+    position: fixed;
+    bottom: 0;
+    right: 100px;
+    width: fit-content;
+    transform: translateY(-50%);
+    color: #ffffff;
+  }
+/* Responsive */
+@media(max-width:768px){
+    .text-input{
+        text-align: center;
+    }
+    .four-btn{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+ 
