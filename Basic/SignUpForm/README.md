@@ -11,6 +11,7 @@ The form is created using *HTML5, **CSS3, **JavaScript, and enhanced with **resp
 ## Technologies Used
 - HTML5
 - CSS3
+- Bootstrap5
 - JavaScript
 
 ## Live Demo
