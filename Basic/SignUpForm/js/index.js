@@ -8,7 +8,6 @@ let password=document.getElementById("passwordInput");
 
 let list=[];
 function addProduct(){
-
     if (emailExsist()){
         Toastify({
             text: "Email is already registered!",
