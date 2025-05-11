@@ -1,0 +1,76 @@
+@media (max-width: 968px) {
+    .container {
+        width: 100%;
+    }
+}
+@media (max-width: 968px) {
+
+    /* start header section */
+    .head h1::before,
+    .head h1::after{
+        font-size: 15px;
+    }
+    /* end header section */
+
+    /* start intro section */
+    .intro {
+        flex-direction: column;
+        line-height: 1.5;
+    }
+    .intro .img-intro{
+        margin: auto;
+    }
+    .img-intro img{
+        opacity: 1;
+    }
+    /* end intro section */
+
+    /* start honors section */
+    #honors h3::before,
+    #honors h3::after {
+        font-size: 15px;
+    }
+    table, th, td{
+        border: 2px solid #333;
+        border-collapse: collapse;
+        padding: 5px;
+        text-align: left;
+    }
+    /* end honors section */
+
+    /* start Achievements section */
+    #achievements h5::before,
+    #achievements h5::after {
+        font-size: 15px;
+    }
+    /* end Achievements section */
+
+    /* start soccer superstar */
+    #soccer-superstar{
+        line-height: 1.5;
+    }
+    #soccer-superstar h4{
+        font-size: 24px;
+    }
+    #soccer-superstar h4::before,
+    #soccer-superstar h4::after {
+        font-size: 15px;
+    }    
+    #soccer-superstar .more-info a{
+        width: 100%;
+        display: block;
+        text-align: center;
+        margin: 10px 0;
+
+    }
+    #soccer-superstar .more-info span {
+        display: none;
+    }
+    /* end soccer superstar */
+
+    /* start footer */
+    .foot{
+        font-size: 10px;
+    }
+    /* end footer */
+}

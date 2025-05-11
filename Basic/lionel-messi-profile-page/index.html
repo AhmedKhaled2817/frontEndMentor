@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Lionel Messi Profile Page - A professional HTML & CSS project showcasing Messi's biography, achievements, and honors with responsive design and styled form.">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+    <title>Leo Messi</title>
+
+</head>
+<body>
+
+    <div class="container">
+        <main>
+                <!-- start header -->
+                <header class="head">
+                    <h1>lionel messi</h1>
+                    <p>the best soccer player of the world</p>
+                </header>
+                <!-- end header -->
+            
+            <!-- start intro section-->
+            <section class="intro">
+                <div class="img-intro">
+                    <img src="./assets/img/messi.jpg" alt="messi">
+                </div>
+                <div class="bio-intro">
+                    <h2 class="title">About Messi</h2>
+                    <p class="lead">Argentina native Lionel Messi has established records for goals scored and won individual awards en route to worldwide recognition as one of the best players in soccer.</p>
+                    <p class="lead">Born on June 24, 1987, in Rosario, Argentina, soccer player Lionel Messi moved to Spain at the age of 13, after the FC Barcelona club agreed to pay for hormone-deficiency treatments. Messi became a star in his new country, leading his club to championships. In 2012, he set a record for most goals in a calendar year, and in 2016, he was named Europe's Ballon d'Or winner for the fifth time.</p>
+                </div>
+            </section>
+            <!-- end intro section  -->
+
+            <!-- start honors section -->
+            <section id="honors">
+                <h3 class="">Honors</h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Club</th>
+                            <th>Competition</th>
+                            <th>Years</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                            <tr>
+                                <td>FC Barcelona</td>
+                                <td>La Liga</td>
+                                <td>2005-2016</td>
+                            </tr>
+                            <tr>
+                                <td>FC Barcelona</td>
+                                <td>Copa del Rey</td>
+                                <td>2009, 2012, 2015-2016</td>
+                            </tr>
+                            <tr>
+                                <td>FC Barcelona</td>
+                                <td>UEFA Champions League</td>
+                                <td>2006, 2009, 2011, 2015</td>
+                            </tr>
+                            <tr>
+                                <td>FC Barcelona</td>
+                                <td>Supercopa de España</td>
+                                <td>2005-2016</td>
+                            </tr>
+                            <tr>
+                                <td>FC Barcelona</td>
+                                <td>UEFA Super Cup</td>
+                                <td>2009, 2011, 2015</td>
+                            </tr>
+                            <tr>
+                                <td>FC Barcelona</td>
+                                <td>FIFA Club World Cup</td>
+                                <td>2009, 2011, 2015</td>
+                            </tr>
+                            <tr>
+                                <td>Argentina</td>
+                                <td>FIFA U-20 World Cup</td>
+                                <td>2005</td>
+                            </tr>
+                            <tr>
+                                <td>Argentina</td>
+                                <td>Olympic Gold Medal</td>
+                                <td>2008</td>
+                            </tr>
+                    </tbody>
+                    <tfoot>
+                    </tfoot>
+                </table>
+            </section>
+            <!-- end honors section -->
+
+                <!-- start  Achievements -->
+                <section id="achievements">
+                    <h5>Achievements</h5>
+                    <div class="text-achievements">
+                        <ol>
+                            <li>2009 - First Ballon d'Or</li>
+                            <li>2010 - FIFA World Player of the Year</li>
+                            <li>2012 - Broke Gerd Müller's record for goals in a calendar year</li>
+                            <li>2015 - Fifth Ballon d'Or</li>
+                            <li>2022 - FIFA World Cup Golden Ball</li>
+                        </ol>
+                    </div>
+                </section>  
+                <!-- end  Achievements  -->
+
+            <!-- start Soccer Superstar section --> 
+            <section id="soccer-superstar">
+                <h4 class="title">Soccer Superstar</h4>
+                <div class="text-soccer-superstar">
+                    <p class="lead">
+                        Although he was often homesick in his new country, Messi moved quickly through the junior system ranks, and by the age of 16, he had made his first appearance for Barcelona. Messi put himself in the record books on May 1, 2005, as the youngest player to ever score a goal for the franchise.
+                    </p>
+                    <p class="lead">
+                        Messi drew comparisons to Diego Maradona for his attacking style. In 2009, Barcelona captured the Champions League, La Liga, and Spanish Super Cup titles, and Messi took home his first Ballon d'Or award. 
+                        In 2012, he broke the record for most goals in a calendar year. In 2015, after more wins with Barcelona, he was honored with his fifth FIFA Ballon d'Or trophy.
+                    </p>    
+                </div>
+                <div class="more-info">
+                    <p>more info :
+                        <a href="https://en.wikipedia.org/wiki/Lionel_Messi" target="_blank">Wikipedia</a> <span>|</span>
+                        <a href="https://genius.com/Lionel-messi-list-of-career-achievements-by-lionel-messi-annotated" target="_blank"> Genius</a>
+                    </p>
+                </div>
+            </section>
+            <!-- end Soccer Superstar section -->
+
+            <!-- start  form -->
+                <div class="form-section">
+                    <form action="index.html">
+                        <div>
+                            <h2>Share Your Opinion</h2>
+                        </div>
+                        <div>
+                            <label for="name">Your Name:</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div>
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div>
+                            <label for="opinion">Your Thoughts:</label>
+                            <textarea id="opinion" name="opinion" rows="4" required></textarea>
+                        </div>
+                            <input type="submit" value="Submit">
+                    </form>
+            </div>
+            <!-- end form -->
+
+            <!-- start footer -->
+            <footer class="foot">
+                <p>&copy;2025 Ahmed Khaled Profile Page | Designed HTML & CSS</p>
+            </footer>
+            <!-- end footer  -->
+            </main>
+    </div>
+    
+    <script src="./assets/js/index.js"></script>
+</body>
+</html>
