@@ -24,7 +24,7 @@ A responsive and styled profile webpage for Lionel Messi, built entirely using H
 ## 🌐 Live Preview
 
 You can view the live version (if hosted on GitHub Pages):
-[View Project](https://your-github-username.github.io/lionel-messi-profile-page/)
+https://ahmedkhaled2817.github.io/frontEndMentor/Basic/lionel-messi-profile-page/
 
 ## 🧑‍💻 Author
 
