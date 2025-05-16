@@ -1,8 +1,3 @@
-# Frontend Mentor - MTCO Social Links Page
-
-This is a solution to a Basic level challenge inspired by [Frontend Mentor](https://www.frontendmentor.io/).  
-This project represents a landing page with multiple social media links for MTCO infrastructure.
-
 ## Live Site
 
 👉 [Live Preview](https://ahmedkhaled2817.github.io/frontEndMentor/Basic/MTCO/)
