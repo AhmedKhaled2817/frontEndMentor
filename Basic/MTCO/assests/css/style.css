@@ -1,0 +1,101 @@
+/* start main component */
+:root{
+    --main-color: #3B477B;
+    --main-color-hover: #3b477bc1;
+    --secondary-color: #808080;
+    --third-color: #fff;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Tajawal", sans-serif;
+    background-color: var(--main-color-hover);
+    backdrop-filter: blur(10px);
+}
+.container {
+    width: 100%;
+    max-width: 600px;
+    padding: 5px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.mtco-section{
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/* start mtco-head */
+.mtco-head{
+    background-color: var(--main-color);
+}
+.mtco-head h1{
+    color: var(--third-color);
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    padding: 5px 0;
+}
+/* end mtco-head */
+
+/* satrt mtco-body */
+.mtco-body {
+    display: flex;
+    justify-content: center;
+}
+.mtco-body video {
+    width: 100%;
+    max-width: 100%;
+}
+/* end mtco-body */
+
+/* start mtco-socail */
+.mtco-social {
+    display: flex;
+    align-items: center;
+    background-color: var(--third-color);
+    border: 3px solid var(--third-color);
+    padding: 10px;
+    transition: background-color 0.3s ease-in;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+    gap: 15px;
+    cursor: pointer;
+}
+
+.mtco-social:hover {
+    background-color: #f0f0f0;
+}
+
+.mtco-icon {
+    background-color: var(--main-color);
+    color: var(--third-color);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+
+.mtco-text h3 {
+    font-size: 18px;
+    margin: 0;
+    color: #000;
+}
+
+.mtco-text p {
+    margin: 3px;
+    font-size: 14px;
+    color: var(--secondary-color);
+}
+
+.mtco-text p a {
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+/* end mtco-socail */
