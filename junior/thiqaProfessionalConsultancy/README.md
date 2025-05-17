@@ -11,7 +11,6 @@ A modern and professional landing page built for **Thiqa Professional Consultanc
 ## 🛠️ Technologies Used
 - **HTML5**
 - **CSS3**
-- **JavaScript (Vanilla)**
 
 ## 🌐 Live Demo
 👉 [View Live Website](https://ahmedkhaled2817.github.io/frontEndMentor/junior/thiqaProfessionalConsultancy/)
