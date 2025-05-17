@@ -12,16 +12,9 @@ The project was built using **HTML5**, **CSS3**, and **JavaScript**, without usi
 ## Technologies Used
 - HTML5
 - CSS3
-- JavaScript
 
 ## Live Demo
 [View Live](https://ahmedkhaled2817.github.io/frontEndMentor/junior/thiqaProfessionalConsultancy/)
-
-## Video Walkthrough
-[Watch Video] 
-<video>
-## Screenshots
-<img width="1277" alt="Thiqa Landing Page" src="https://github.com/AhmedKhaled2817/frontEndMentor/assets/your-screenshot-path" />
 
 ## Author
 - GitHub: [Ahmed Khaled](https://github.com/AhmedKhaled2817)
