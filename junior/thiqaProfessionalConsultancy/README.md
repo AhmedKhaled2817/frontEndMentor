@@ -1,21 +1,21 @@
 # Thiqa Professional Consultancy
 
-This is a landing page project for **Thiqa Professional Consultancy**, designed to demonstrate modern front-end development skills including layout design, responsiveness, and clean UI/UX practices.  
-The project was built using **HTML5**, **CSS3**, and **JavaScript**, without using Bootstrap, to showcase custom styling and structure.
+A modern and professional landing page built for **Thiqa Professional Consultancy**, showcasing front-end development skills in layout design, responsiveness, and clean UI/UX — all without using frameworks like Bootstrap.
 
-## Features
-- Elegant and professional design
-- Responsive layout across all screen sizes
-- Interactive navigation and content sections
-- Smooth user experience
+## 🚀 Features
+- ✅ Clean, elegant, and professional design  
+- ✅ Fully responsive layout for all screen sizes  
+- ✅ Interactive navigation and content sections  
+- ✅ Smooth user experience with custom styling  
 
-## Technologies Used
-- HTML5
-- CSS3
+## 🛠️ Technologies Used
+- **HTML5**
+- **CSS3**
+- **JavaScript (Vanilla)**
 
-## Live Demo
-[View Live](https://ahmedkhaled2817.github.io/frontEndMentor/junior/thiqaProfessionalConsultancy/)
+## 🌐 Live Demo
+👉 [View Live Website](https://ahmedkhaled2817.github.io/frontEndMentor/junior/thiqaProfessionalConsultancy/)
 
-## Author
-- GitHub: [Ahmed Khaled](https://github.com/AhmedKhaled2817)
+## 👤 Author
+- GitHub: [Ahmed Khaled](https://github.com/AhmedKhaled2817)  
 - LinkedIn: [Ahmed Khaled](https://www.linkedin.com/in/ahmed-khaled-39242423a/)
